@@ -1,6 +1,6 @@
-import { DescriptionCard } from 'components/organisms/card/DescriptionCard'
+import { ProfileDescriptionCard } from 'components/organisms/card/ProfileDescriptionCard'
 import { memo, VFC } from 'react'
 
 export const Profile: VFC = memo(() => {
-  return <DescriptionCard></DescriptionCard>
+  return <ProfileDescriptionCard></ProfileDescriptionCard>
 })

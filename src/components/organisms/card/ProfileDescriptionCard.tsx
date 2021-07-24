@@ -8,7 +8,7 @@ import {
 } from '@chakra-ui/react'
 import { memo } from 'react'
 
-export const DescriptionCard = memo(() => {
+export const ProfileDescriptionCard = memo(() => {
   return (
     <Flex align="center" justify="center">
       <Box
@@ -26,18 +26,18 @@ export const DescriptionCard = memo(() => {
             ハ〜イ、ガイズ。
             マイネームイズ、コスケ・オヤマ。アイム、プログラマ。ヨロシクオネガイシマス。
           </Text>
+          <Heading fontSize="2xl">Skills</Heading>
+          <UnorderedList>
+            <ListItem>html5/css3</ListItem>
+            <ListItem>JavaScript</ListItem>
+            <ListItem>Jquery</ListItem>
+            <ListItem>React</ListItem>
+            <ListItem>BootStrap</ListItem>
+            <ListItem>Java</ListItem>
+            <ListItem>MySQL</ListItem>
+            <ListItem>Linux</ListItem>
+          </UnorderedList>
         </Box>
-        <Heading fontSize="2xl">Skills</Heading>
-        <UnorderedList>
-          <ListItem>html5/css3</ListItem>
-          <ListItem>JavaScript</ListItem>
-          <ListItem>Jquery</ListItem>
-          <ListItem>React</ListItem>
-          <ListItem>BootStrap</ListItem>
-          <ListItem>Java</ListItem>
-          <ListItem>MySQL</ListItem>
-          <ListItem>Linux</ListItem>
-        </UnorderedList>
       </Box>
     </Flex>
   )

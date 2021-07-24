@@ -1,5 +1,6 @@
+import { WorksDescriptionCard } from 'components/organisms/card/WorksDescriptionCard'
 import { memo, VFC } from 'react'
 
 export const Works: VFC = memo(() => {
-  return <p>worksです</p>
+  return <WorksDescriptionCard></WorksDescriptionCard>
 })
