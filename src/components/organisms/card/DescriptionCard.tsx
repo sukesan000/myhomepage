@@ -11,7 +11,15 @@ import { memo } from 'react'
 export const DescriptionCard = memo(() => {
   return (
     <Flex align="center" justify="center">
-      <Box bg="white" h="80vh" w="sm" p={8} borderRadius="10px" shadow="md">
+      <Box
+        bg="white"
+        h="80vh"
+        w="sm"
+        mt={8}
+        p={8}
+        borderRadius="10px"
+        shadow="md"
+      >
         <Box pb={4}>
           <Heading fontSize="2xl">Profile</Heading>
           <Text fontSize="sm">
